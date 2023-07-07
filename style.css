@@ -1,4 +1,11 @@
 *{
           margin: 0;
           padding: 0;
+
+}
+h1{
+          color: aquamarine;
+          background-color: navy;
+          height: 120px;
+          width: 130px;
 }
