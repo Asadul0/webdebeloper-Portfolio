@@ -91,11 +91,28 @@ nav a{
           margin-bottom: 20px;
  }
  /* main section style */
-
+main{
+          max-width: 1140px;
+          justify-content: center;
+          text-align: center;
+        
+}
  /* about section style */
- .about{
+.about{
+          
           padding: 130px;
           border-radius: 10px;
           background-color: #fff8f3;
           margin: 130px 0;
- }
+          right: 140px
+
+}
+.about-info-container{
+          display: flex;
+          right: 500px;
+          
+}
+#what-i-do-descripti{
+          padding: 30px 150px;
+}
+
