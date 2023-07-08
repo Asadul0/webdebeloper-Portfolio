@@ -1,14 +1,48 @@
+/* common shared style */
+body{
+          font-family: 'Open Sans', sans-serif;
+          font-family: 'Passions Conflict', cursive;
+          font-family: 'Poppins', sans-serif;
+}
 
-h1{
-          color: aquamarine;
-          background-color: navy;
-          height: 120px;
-          width: 130px;
-          border: 4px solid rgb(224, 109, 64);
-          border-radius: 9px;
-}         
-p{
-          color: rgb(212, 126, 21);
-          background-color: rgb(21, 61, 61);
-          border-radius: 6px;
+.text-prymary{
+          color: tomato;
+}
+.btn-primary{
+          border-radius: 5px;
+          background-color: tomato;
+          border: 0;
+          color: white;
+          font-size: 20px;
+          font-weight: 700;
+          padding: 15px 35px;
+
+}
+
+/* nav related style */
+
+nav{
+          display: flex; 
+          align-items: center; 
+          justify-content: space-between;      
+}
+.nav-title{
+          color: #181818;
+          font-size: 45px;
+          font-weight: 800px;
+}
+nav > ul{
+          display: flex;
+          align-items: center;
+}
+
+nav li{
+          list-style: none;
+          margin-right: 50px;
+}
+
+nav a{
+          text-decoration: none;
+          color: gray;
+
 }
